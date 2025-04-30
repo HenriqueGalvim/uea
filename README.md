@@ -168,6 +168,29 @@ POST /api/fotos/atividade/200
 
 ---
 
+
+---
+
+## 🐳 Executando com Docker
+
+Caso prefira rodar a aplicação de forma isolada com Docker, siga os passos abaixo.
+
+### Passo 1: Build da imagem
+
+```bash
+docker build -t uea-atividades-api .
+```
+
+### Passo 2: Executar o container
+
+```bash
+docker run -p 8080:8080 uea-atividades-api
+```
+
+> Isso disponibiliza a aplicação em `http://localhost:8080`
+
+---
+
 ## 👤 Autor
 
 - Henrique Galvim  
